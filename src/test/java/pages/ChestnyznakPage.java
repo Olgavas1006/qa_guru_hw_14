@@ -3,8 +3,7 @@ package pages;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
 
-import static com.codeborne.selenide.Condition.text;
-import static com.codeborne.selenide.Condition.visible;
+import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 
@@ -84,7 +83,11 @@ public class ChestnyznakPage {
     }
 
     public ChestnyznakPage openPersonalAccount() {
-        $("a[aria-label='Личный кабинет клиента']").click();
+       // $("a[aria-label='Личный кабинет клиента']").click();
+        $("a[aria-label='Личный кабинет клиента']")
+                .shouldHave(attribute("href", "https://lk.rgs.ru/"))
+                .click();
+       // $("p.buy-button").click();
         return this;
     }
 
