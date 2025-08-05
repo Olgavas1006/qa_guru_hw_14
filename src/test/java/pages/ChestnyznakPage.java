@@ -83,11 +83,9 @@ public class ChestnyznakPage {
     }
 
     public ChestnyznakPage openPersonalAccount() {
-       // $("a[aria-label='Личный кабинет клиента']").click();
         $("a[aria-label='Личный кабинет клиента']")
                 .shouldHave(attribute("href", "https://lk.rgs.ru/"))
                 .click();
-       // $("p.buy-button").click();
         return this;
     }
 
