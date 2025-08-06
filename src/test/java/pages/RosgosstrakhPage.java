@@ -7,7 +7,7 @@ import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 
-public class ChestnyznakPage {
+public class RosgosstrakhPage {
 
     private SelenideElement padding() { return $(".padding"); }
     private SelenideElement autoLink() { return $("a[href='/auto']"); }
@@ -17,79 +17,79 @@ public class ChestnyznakPage {
     private SelenideElement authLink() { return $("a[href='/authorization']"); }
 
 
-    public ChestnyznakPage openPage() {
+    public RosgosstrakhPage openPage() {
         Selenide.open("https://www.rgs.ru/");
         return this;
     }
 
-    public ChestnyznakPage clickPadding() {
+    public RosgosstrakhPage clickPadding() {
         padding().click();
         return this;
     }
 
-    public ChestnyznakPage navigateToAutoInsurance() {
+    public RosgosstrakhPage navigateToAutoInsurance() {
         autoLink().click();
         return this;
     }
 
-    public ChestnyznakPage verifyAutoInsuranceHeaderVisible() {
+    public RosgosstrakhPage verifyAutoInsuranceHeaderVisible() {
         $(byText("Автострахование")).shouldBe(visible);
         return this;
     }
 
-    public ChestnyznakPage navigateToCompaniesSection() {
+    public RosgosstrakhPage navigateToCompaniesSection() {
         companiesLink().click();
         return this;
     }
 
-    public ChestnyznakPage verifyCompaniesCategories(String expectedText) {
+    public RosgosstrakhPage verifyCompaniesCategories(String expectedText) {
         $(".category").shouldHave(text(expectedText));
         return this;
     }
 
-    public ChestnyznakPage openFaqSection() {
+    public RosgosstrakhPage openFaqSection() {
         faqButton().click();
         return this;
     }
 
-    public ChestnyznakPage selectCity(String cityName) {
+    public RosgosstrakhPage selectCity(String cityName) {
         $(".grid").shouldHave(text(cityName)).click();
         return this;
     }
 
-    public ChestnyznakPage openSupportMenu() {
+    public RosgosstrakhPage openSupportMenu() {
         supportMenuLink().click();
         return this;
     }
 
-    public ChestnyznakPage navigateToFaq() {
+    public RosgosstrakhPage navigateToFaq() {
         $("a[href='/faq']").click();
         return this;
     }
 
-    public ChestnyznakPage verifySupportHeader() {
+    public RosgosstrakhPage verifySupportHeader() {
         $(".page-content").shouldHave(text("Центр поддержки клиентов — отвечаем на ваши вопросы"));
         return this;
     }
 
-    public ChestnyznakPage openAuthorizationPage() {
+    public RosgosstrakhPage openAuthorizationPage() {
         authLink().click();
         return this;
     }
 
-    public ChestnyznakPage verifyAuthHeader() {
+    public RosgosstrakhPage verifyAuthHeader() {
         $("h2.section-basic__title").shouldHave(text("Вход в личный кабинет"));
         return this;
     }
 
-    public ChestnyznakPage openPersonalAccount() {
+    public RosgosstrakhPage openPersonalAccount() {
         $("a[aria-label='Личный кабинет клиента']")
                 .shouldHave(attribute("href", "https://lk.rgs.ru/"))
                 .click();
         return this;
     }
 
-    public ChestnyznakPage enterPhoneNumber(String phone) {
+    public RosgosstrakhPage enterPhoneNumber(String phone) {
         $("[name='phoneNumber']").setValue(phone);
         return this;
     }

@@ -3,12 +3,12 @@ package tests;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
-import pages.ChestnyznakPage;
+import pages.RosgosstrakhPage;
 import static io.qameta.allure.Allure.step;
 
-class ChestnyznakTest extends TestBase {
+class RosgosstrakhTest extends TestBase {
 
-    ChestnyznakPage page = new ChestnyznakPage();
+    RosgosstrakhPage page = new RosgosstrakhPage();
 
     @Test
     @Tag("znak")
