@@ -52,7 +52,7 @@ ____
 
 ____
 <a id="jenkins"></a>
-## <img width="4%" style="vertical-align:middle" title="Jenkins" src="media/logo/jenkins.png"> Сборка в Jenkins
+## <img width="4%" style="vertical-align:middle" title="Jenkins" src="media/logo/Jenkins.svg"> Сборка в Jenkins
 
 Для запуска сборки необходимо перейти в раздел <code>Собрать с параметрами</code> и нажать кнопку <code>Собрать</code>.
 <p align="center">
@@ -98,7 +98,7 @@ ____
 Выполнена интеграция сборки <code>Jenkins</code> с <code>Allure TestOps</code>.
 На дашборде представлен состав тест-кейсов (автоматизированные и ручные кейсы), запуски, результаты прогонов (успешные/неуспешные тесты)
 <p align="center">
-<img title="Allure TestOps DashBoard" src="media/screens/AllureTestOps.png">
+<img title="Allure TestOps DashBoard" src="media/screens/AllureTestops.png">
 </p>
 
 ____
@@ -108,7 +108,7 @@ ____
 Реализована интеграция <code>Allure TestOps</code> с <code>Jira</code>,в тикете отображается информация, какие тест-кейсы были написаны в рамках задачи и результат их прогона.
 
 <p align="center">
-<img title="Jira Task" src="media/screens/Jira.png">
+<img title="Jira Task" src="media/screens/jira.png">
 </p>
 
 ____
