@@ -31,7 +31,7 @@ public class TestBase {
                 "videoFrameRate", 24
         ));
         Configuration.browserCapabilities = capabilities;
-        SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
+
     }
 
     @BeforeEach
