@@ -38,10 +38,10 @@ ____
 - Фреймворки для тестирования:
   - [Selenide](https://selenide.org/) (для автоматизации браузерных тестов)
   - <code>JUnit 5</code> (для структурирования и запуска тестов)
-- Сборка и управление зависимостями: <code>Gradle</code>
+- Сборка и управление зависимостями: [Gradle](https://gradle.org/)
 - Запуск браузеров в [Selenoid](https://aerokube.com/selenoid/) при прогоне тестов
-- CI/CD: <code>Jenkins</code> (реализована джоба для удаленного запуска тестов) с формированием Allure-отчета и отправкой результатов в <code>Telegram</code> при помощи бота. 
-- Интеграция с <code>Allure TestOps</code> и <code>Jira</code> (управление тест-кейсами и аналитика)
+- CI/CD: [Jenkins](https://www.jenkins.io/) (реализована джоба для удаленного запуска тестов) с формированием Allure-отчета и отправкой результатов в <code>Telegram</code> при помощи бота. 
+- Интеграция с [Allure TestOps](https://qameta.io/) и [Jira](https://www.atlassian.com/software/jira) (управление тест-кейсами и аналитика)
 
 Содержание Allure-отчета:
 * Шаги теста;
@@ -114,7 +114,7 @@ ____
 ____
 <a id="telegram"></a>
 
-### <img width="4%" style="vertical-align:middle" title="Telegram" src="media/logo/Telegram.svg"> Уведомления в Telegram с использованием бота
+## <img width="4%" style="vertical-align:middle" title="Telegram" src="media/logo/Telegram.svg"> Уведомления в Telegram с использованием бота
 
 После завершения сборки, бот созданный в Telegram, автоматически обрабатывает и отправляет сообщение с результатом.
 <p align="center">
