@@ -123,4 +123,10 @@ ____
 
 ____
 <a id="video"></a>
- 
+
+## Видео примера запуска тестов в Selenoid
+
+К каждому тесту в отчете прилагается видео прогона.
+<p align="center">
+  <img title="Selenoid Video" src="media/screens/video.gif">
+</p>
