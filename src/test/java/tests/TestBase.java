@@ -31,13 +31,14 @@ public class TestBase {
                 "videoFrameRate", 24
         ));
         Configuration.browserCapabilities = capabilities;
-    }
-
-    @BeforeEach
-    void addListener() {
-
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
     }
+
+//    @BeforeEach
+ //   void addListener() {
+
+
+ //   }
 
     @AfterEach
     void addAttachments() {
