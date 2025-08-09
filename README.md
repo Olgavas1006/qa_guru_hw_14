@@ -40,7 +40,7 @@ ____
   - [JUnit 5](https://junit.org/) (для структурирования и запуска тестов)
 - Сборка и управление зависимостями: [Gradle](https://gradle.org/)
 - Запуск браузеров в [Selenoid](https://aerokube.com/selenoid/) при прогоне тестов
-- CI/CD: [Jenkins](https://www.jenkins.io/) (реализована джоба для удаленного запуска тестов) с формированием Allure-отчета и отправкой результатов в <code>Telegram</code> при помощи бота. 
+- CI/CD: [Jenkins](https://www.jenkins.io/) (реализована джоба для удаленного запуска тестов с формированием Allure-отчета и отправкой результатов в <code>Telegram</code> при помощи бота) 
 - Интеграция с [Allure TestOps](https://qameta.io/) и [Jira](https://www.atlassian.com/software/jira) (управление тест-кейсами и аналитика)
 
 Содержание Allure-отчета:
