@@ -83,8 +83,8 @@ public class RosgosstrakhPage {
     }
 
     public RosgosstrakhPage openPersonalAccount() {
-        $("a[aria-label='Личный кабинет клиента']")
-                .shouldHave(attribute("href", "https://lk.rgs.ru/"))
+        $(".card-content")
+                .shouldHave(text("Личный кабинет клиента"))
                 .click();
         return this;
     }
