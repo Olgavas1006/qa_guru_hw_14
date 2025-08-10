@@ -16,9 +16,9 @@ class RosgosstrakhTest extends TestBase {
     void checkAutoPageTest() {
         step("Открыть главную страницу", () ->
                 page.openPage());
-        step("Нажать на элемент 'padding'", () ->
+        step("Нажать на Авто", () ->
                 page.clickPadding());
-        step("Перейти в раздел автострахования", () ->
+        step("Перейти в раздел Авто", () ->
                 page.navigateToAutoInsurance());
         step("Проверить видимость заголовка 'Автострахование'", () ->
                 page.verifyAutoInsuranceHeaderVisible());
