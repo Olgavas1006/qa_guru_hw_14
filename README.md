@@ -1,8 +1,8 @@
 # Проект по автоматизации тестирования для компании [Росгосстрах](https://www.rgs.ru/)
 
+![This is an image](media/screens/rosgosstrakh.png)
 ## **Содержание:**
 ____
-
 
 * <a href="#tools">Технологии и инструменты</a>
 * <a href="#jenkins">Сборка в Jenkins</a>
@@ -18,7 +18,7 @@ ____
 ## **Технологии и инструменты**
 
 <p align="center">
-<img width="6%" title="IntelliJ IDEA" src="media/logo/Intelij_IDEA.svg">
+<a href="https://www.jetbrains.com/idea/"><img width="6%" title="IntelliJ IDEA" src="media/logo/Intelij_IDEA.svg"></a> 
 <img width="6%" title="Java" src="media/logo/Java.svg">
 <img width="6%" title="Selenide" src="media/logo/Selenide.svg">
 <img width="6%" title="Selenoid" src="media/logo/Selenoid.svg">
