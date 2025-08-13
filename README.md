@@ -19,17 +19,17 @@ ____
 
 <p align="center">
 <a href="https://www.jetbrains.com/idea/"><img width="6%" title="IntelliJ IDEA" src="media/logo/Intelij_IDEA.svg"></a> 
-<img width="6%" title="Java" src="media/logo/Java.svg">
-<img width="6%" title="Selenide" src="media/logo/Selenide.svg">
-<img width="6%" title="Selenoid" src="media/logo/Selenoid.svg">
-<img width="6%" title="Allure Report" src="media/logo/Allure_Report.svg">
-<img width="5%" title="Allure TestOps" src="media/logo/AllureTestOps.svg">
-<img width="6%" title="Gradle" src="media/logo/Gradle.svg">
-<img width="6%" title="JUnit5" src="media/logo/JUnit5.svg">
-<img width="6%" title="GitHub" src="media/logo/GitHub.svg">
-<img width="6%" title="Jenkins" src="media/logo/Jenkins.svg">
-<img width="6%" title="Telegram" src="media/logo/Telegram.svg">
-<img width="5%" title="Jira" src="media/logo/Jira.svg">
+<a href="https://www.java.com/ru/"><img width="6%" title="Java" src="media/logo/Java.svg"></a>
+<a href="https://selenide.org/"><img width="6%" title="Selenide" src="media/logo/Selenide.svg"></a>
+<a href="https://aerokube.com/selenoid/"><img width="6%" title="Selenoid" src="media/logo/Selenoid.svg"></a>
+<a href="https://github.com/allure-framework"><img width="6%" title="Allure Report" src="media/logo/Allure_Report.svg"></a>
+<a href="https://qameta.io/"><img width="5%" title="Allure TestOps" src="media/logo/AllureTestOps.svg"></a>
+<a href="https://gradle.org/"><img width="6%" title="Gradle" src="media/logo/Gradle.svg"></a>
+<a href="https://junit.org/junit5/"><img width="6%" title="JUnit5" src="media/logo/JUnit5.svg"></a>
+<a href="https://github.com/"><img width="6%" title="GitHub" src="media/logo/GitHub.svg"></a>
+<a href="https://www.jenkins.io/"><img width="6%" title="Jenkins" src="media/logo/Jenkins.svg"></a>
+<a href="https://web.telegram.org/"><img width="6%" title="Telegram" src="media/logo/Telegram.svg"></a>
+<a href="https://www.atlassian.com/software/jira/"><img width="5%" title="Jira" src="media/logo/Jira.svg"></a>
 </p>
 
 
@@ -52,7 +52,7 @@ ____
 
 ____
 <a id="jenkins"></a>
-## <img width="4%" style="vertical-align:middle" title="Jenkins" src="media/logo/Jenkins.svg"> Сборка в Jenkins
+## <img width="4%" style="vertical-align:middle" title="Jenkins" src="media/logo/Jenkins.svg"> Сборка в [Jenkins](https://jenkins.autotests.cloud/job/qa_guru_hw_14_rosgosstrakh/)
 
 Для запуска сборки необходимо перейти в раздел <code>Собрать с параметрами</code> и нажать кнопку <code>Собрать</code>.
 <p align="center">
@@ -84,7 +84,7 @@ znak_test
 - *selenoid.url (адрес удаленного сервера, на котором будут запускаться тесты)
 ____
 <a id="allure"></a>
-## <img width="4%" style="vertical-align:middle" title="Allure Report" src="media/logo/Allure_Report.svg"> Пример Allure-отчета
+## <img width="4%" style="vertical-align:middle" title="Allure Report" src="media/logo/Allure_Report.svg"> Пример [Allure-отчета](https://jenkins.autotests.cloud/job/qa_guru_hw_14_rosgosstrakh/19/allure/)
 
 <p align="center">
 <img title="Allure Overview" src="media/screens/AllureReport.png">
@@ -93,7 +93,7 @@ ____
 В отчете Allure представлены результаты тестирования с общей статистикой.
 ____
 <a id="allure-testops"></a>
-## <img width="4%" style="vertical-align:middle" title="Allure TestOps" src="media/logo/AllureTestOps.svg"> Интеграция с Allure TestOps
+## <img width="4%" style="vertical-align:middle" title="Allure TestOps" src="media/logo/AllureTestOps.svg"> Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/4862/dashboards)
 
 Выполнена интеграция сборки <code>Jenkins</code> с <code>Allure TestOps</code>.
 На дашборде представлен состав тест-кейсов (автоматизированные и ручные кейсы), запуски, результаты прогонов (успешные/неуспешные тесты)
@@ -103,7 +103,8 @@ ____
 
 ____
 <a id="jira"></a>
-## <img width="4%" style="vertical-align:middle" title="Jira" src="media/logo/Jira.svg"> Интеграция с Jira
+## <img width="4%" style="vertical-align:middle" title="Jira" src="media/logo/Jira.svg"> Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-1483)
+)
 
 Реализована интеграция <code>Allure TestOps</code> с <code>Jira</code>,в тикете отображается информация, какие тест-кейсы были написаны в рамках задачи и результат их прогона.
 

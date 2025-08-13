@@ -9,7 +9,6 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class RosgosstrakhPage {
 
-    private SelenideElement padding() { return $(".padding"); }
     private SelenideElement autoLink() { return $("a[href='/auto']"); }
     private SelenideElement companiesLink() { return $("a[href='/for-companies']"); }
     private SelenideElement faqButton() { return $(".button-faq"); }
@@ -23,7 +22,7 @@ public class RosgosstrakhPage {
     }
 
     public RosgosstrakhPage clickPadding() {
-        padding().click();
+        $(".padding").click();
         return this;
     }
 
