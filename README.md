@@ -70,7 +70,7 @@ gradle clean znak_test
 ***Удаленный запуск через Jenkins***
 ```
 clean
-znak_test
+test
 -Dbrowser=${browser}
 -Dversion=${version}
 -DwindowSize=${windowSize}
