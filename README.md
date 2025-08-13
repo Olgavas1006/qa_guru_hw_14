@@ -63,7 +63,7 @@ ____
 <a id="console"></a>
  ***Запуск из терминала***
 ```
-gradle clean znak_test
+gradle clean test
 ```
 При выполнении команды, тесты запустятся удаленно в [Selenoid](https://aerokube.com/selenoid/).
 

@@ -11,7 +11,6 @@ class RosgosstrakhTest extends TestBase {
     RosgosstrakhPage page = new RosgosstrakhPage();
 
     @Test
-    @Tag("znak")
     @DisplayName("Проверка перехода на страницу автострахования")
     void checkAutoPageTest() {
         step("Открыть главную страницу", () ->
@@ -26,7 +25,6 @@ class RosgosstrakhTest extends TestBase {
 
 
     @Test
-    @Tag("znak")
     @DisplayName("Проверка раздела 'Для компаний' и категорий страхования")
     void checkForCompaniesTest() {
         step("Открыть главную страницу", () ->
@@ -39,7 +37,6 @@ class RosgosstrakhTest extends TestBase {
     }
 
     @Test
-    @Tag("znak")
     @DisplayName("Выбор города в разделе FAQ")
     void cityTest() {
         step("Открыть главную страницу", () ->
@@ -51,7 +48,6 @@ class RosgosstrakhTest extends TestBase {
     }
 
     @Test
-    @Tag("znak")
     @DisplayName("Проверка раздела поддержки клиентов")
     void supportTest() {
         step("Открыть главную страницу", () ->
@@ -65,7 +61,6 @@ class RosgosstrakhTest extends TestBase {
     }
 
     @Test
-    @Tag("znak")
     @DisplayName ("Проверка перехода в личный кабинет и ввода номера телефона")
     void personalAccountTest() {
         step("Открыть главную страницу", () ->
