@@ -9,12 +9,11 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class RosgosstrakhPage {
 
-    private SelenideElement autoLink() { return $("a[href='/auto']"); }
-    private SelenideElement companiesLink() { return $("a[href='/for-companies']"); }
-    private SelenideElement faqButton() { return $(".button-faq"); }
-    private SelenideElement supportMenuLink() { return $("li.item.mobileHidden.text--menu-item-bold > a"); }
-    private SelenideElement authLink() { return $("a[href='/authorization']"); }
-
+    private final SelenideElement autoLink = $("a[href='/auto']"),
+            companiesLink = $("a[href='/for-companies']"),
+            faqButton = $(".button-faq"),
+            supportMenuLink = $("li.item.mobileHidden.text--menu-item-bold > a"),
+            authLink = $("a[href='/authorization']");
 
     public RosgosstrakhPage openPage() {
         Selenide.open("https://www.rgs.ru/");
@@ -27,7 +26,7 @@ public class RosgosstrakhPage {
     }
 
     public RosgosstrakhPage navigateToAutoInsurance() {
-        autoLink().click();
+        autoLink.click();
         return this;
     }
 
@@ -37,7 +36,7 @@ public class RosgosstrakhPage {
     }
 
     public RosgosstrakhPage navigateToCompaniesSection() {
-        companiesLink().click();
+        companiesLink.click();
         return this;
     }
 
@@ -47,7 +46,7 @@ public class RosgosstrakhPage {
     }
 
     public RosgosstrakhPage openFaqSection() {
-        faqButton().click();
+        faqButton.click();
         return this;
     }
 
@@ -57,7 +56,7 @@ public class RosgosstrakhPage {
     }
 
     public RosgosstrakhPage openSupportMenu() {
-        supportMenuLink().click();
+        supportMenuLink.click();
         return this;
     }
 
@@ -72,7 +71,7 @@ public class RosgosstrakhPage {
     }
 
     public RosgosstrakhPage openAuthorizationPage() {
-        authLink().click();
+        authLink.click();
         return this;
     }
 
